@@ -7,7 +7,7 @@ require("dotenv").config()
 
 app.use(cors())
 app.use(express.json())
-mongoose.connect("mongodb+srv://tristiannn:271098@cluster0.9lfwz.mongodb.net/crud?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://tristiannn:<password>@cluster0.9lfwz.mongodb.net/crud?retryWrites=true&w=majority",
     {
         useNewUrlParser:true,
     })
